@@ -1,0 +1,42 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/codio/workspace/build
+Scanning dependencies of target FOSSSim
+[ 33%] [ 66%] [100%] Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.o
+Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.o
+Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.o
+Linking CXX executable FOSSSim
+[100%] Built target FOSSSim
+
+==============================================================================
+  Running Scenes:
+==============================================================================
+
+    [34mt1m1/StarterTests/helloworld.xml[0m                                    [DONE]
+    [34mt1m1/InertiaTests/test01explicit.xml[0m                                [DONE]
+    [34mt1m1/InertiaTests/test02explicit.xml[0m                                [DONE]
+    [34mt1m1/InertiaTests/test00explicit.xml[0m                                [DONE]
+    [34mt1m1/SimpleGravityTests/test01explicit.xml[0m                          [DONE]
+    [34mt1m1/SimpleGravityTests/test02explicit.xml[0m                          [DONE]
+    [34mt1m1/SimpleGravityTests/test00explicit.xml[0m                          [DONE]
+    [34mt1m1/SimpleGravityTests/test03explicit.xml[0m                          [DONE]
+    [34mt1m1/SystemTests/ProjectileRainbowExplicit.xml[0m                      [DONE]
+
+==============================================================================
+  Results:
+==============================================================================
+
+    [34mt1m1/StarterTests/helloworld.xml[0m                                    [1m[32m[ OK ]
+[0m[0m    [34mt1m1/InertiaTests/test01explicit.xml[0m                                [1m[32m[ OK ]
+[0m[0m    [34mt1m1/InertiaTests/test02explicit.xml[0m                                [1m[32m[ OK ]
+[0m[0m    [34mt1m1/InertiaTests/test00explicit.xml[0m                                [1m[32m[ OK ]
+[0m[0m    [34mt1m1/SimpleGravityTests/test01explicit.xml[0m                          [1m[32m[ OK ]
+[0m[0m    [34mt1m1/SimpleGravityTests/test02explicit.xml[0m                          [1m[32m[ OK ]
+[0m[0m    [34mt1m1/SimpleGravityTests/test00explicit.xml[0m                          [1m[32m[ OK ]
+[0m[0m    [34mt1m1/SimpleGravityTests/test03explicit.xml[0m                          [1m[32m[ OK ]
+[0m[0m    [34mt1m1/SystemTests/ProjectileRainbowExplicit.xml[0m                      [1m[32m[ OK ]
+[0m[0m
+==============================================================================
+
+Passed [1m[32m9[0m[0m / [1m9[0m required tests and [1m[32m0[0m[0m extra credit tests for a grade of [1m[34m100.0[0m[0m% (lateness penalty [1m[31m0.0[0m[0m% included).
+

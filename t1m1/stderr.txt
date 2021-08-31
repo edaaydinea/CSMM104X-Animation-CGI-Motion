@@ -1,0 +1,141 @@
+In file included from /home/codio/workspace/include/eigen/Eigen/Core:234:0,
+                 from /home/codio/workspace/FOSSSim/SimpleGravityForce.h:4,
+                 from /home/codio/workspace/FOSSSim/SimpleGravityForce.cpp:1:
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::Matrix<double, 2, 1> >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/MatrixBase.h:55:34:   required from ‘class Eigen::MatrixBase<Eigen::Matrix<double, 2, 1> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseStorageBase.h:42:7:   required from ‘class Eigen::DenseStorageBase<Eigen::Matrix<double, 2, 1> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/Matrix.h:132:7:   required from ‘class Eigen::Matrix<double, 2, 1>’
+/home/codio/workspace/FOSSSim/SimpleGravityForce.h:27:14:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<2, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::Matrix<double, 2, 1> >::<anonymous enum>’ [-Wenum-compare]
+       InnerSizeAtCompileTime = int(IsVectorAtCompileTime) ? SizeAtCompileTime
+                                                           ^
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/MatrixBase.h:55:34:   required from ‘class Eigen::MatrixBase<Eigen::Matrix<double, -1, 1> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseStorageBase.h:42:7:   required from ‘class Eigen::DenseStorageBase<Eigen::Matrix<double, -1, 1> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/Matrix.h:132:7:   required from ‘class Eigen::Matrix<double, -1, 1>’
+/home/codio/workspace/FOSSSim/SimpleGravityForce.cpp:10:24:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<-1, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::Matrix<double, -1, 1> >::<anonymous enum>’ [-Wenum-compare]
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/MatrixBase.h:55:34:   required from ‘class Eigen::MatrixBase<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/MapBase.h:35:34:   required from ‘class Eigen::MapBase<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/Block.h:232:7:   required from ‘class Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true>’
+/home/codio/workspace/include/eigen/Eigen/src/Core/VectorBlock.h:66:47:   required from ‘class Eigen::VectorBlock<Eigen::Matrix<double, -1, 1>, 2>’
+/home/codio/workspace/FOSSSim/SimpleGravityForce.cpp:12:40:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<2, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >::<anonymous enum>’ [-Wenum-compare]
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::ArrayWrapper<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> > >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/ArrayBase.h:48:34:   required from ‘class Eigen::ArrayBase<Eigen::ArrayWrapper<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> > >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/ArrayWrapper.h:45:7:   required from ‘class Eigen::ArrayWrapper<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >’
+/home/codio/workspace/FOSSSim/SimpleGravityForce.cpp:12:48:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<2, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >::<anonymous enum>’ [-Wenum-compare]
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::ArrayWrapper<Eigen::Matrix<double, 2, 1> > >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/ArrayBase.h:48:34:   required from ‘class Eigen::ArrayBase<Eigen::ArrayWrapper<Eigen::Matrix<double, 2, 1> > >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/ArrayWrapper.h:45:7:   required from ‘class Eigen::ArrayWrapper<Eigen::Matrix<double, 2, 1> >’
+/home/codio/workspace/FOSSSim/SimpleGravityForce.cpp:12:66:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<2, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::Matrix<double, 2, 1> >::<anonymous enum>’ [-Wenum-compare]
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::ei_scalar_product_op<double>, Eigen::ArrayWrapper<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >, Eigen::ArrayWrapper<Eigen::Matrix<double, 2, 1> > > >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/ArrayBase.h:48:34:   required from ‘class Eigen::ArrayBase<Eigen::CwiseBinaryOp<Eigen::ei_scalar_product_op<double>, Eigen::ArrayWrapper<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >, Eigen::ArrayWrapper<Eigen::Matrix<double, 2, 1> > > >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseBinaryOp.h:168:7:   required from ‘class Eigen::CwiseBinaryOpImpl<Eigen::ei_scalar_product_op<double>, Eigen::ArrayWrapper<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >, Eigen::ArrayWrapper<Eigen::Matrix<double, 2, 1> >, Eigen::Dense>’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseBinaryOp.h:101:7:   required from ‘class Eigen::CwiseBinaryOp<Eigen::ei_scalar_product_op<double>, Eigen::ArrayWrapper<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >, Eigen::ArrayWrapper<Eigen::Matrix<double, 2, 1> > >’
+/home/codio/workspace/FOSSSim/SimpleGravityForce.cpp:12:66:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<2, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::CwiseBinaryOp<Eigen::ei_scalar_product_op<double>, Eigen::ArrayWrapper<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >, Eigen::ArrayWrapper<Eigen::Matrix<double, 2, 1> > > >::<anonymous enum>’ [-Wenum-compare]
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::ei_scalar_difference_op<double>, Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true>, Eigen::Matrix<double, -1, 1> > >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/MatrixBase.h:55:34:   required from ‘class Eigen::MatrixBase<Eigen::CwiseBinaryOp<Eigen::ei_scalar_difference_op<double>, Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true>, Eigen::Matrix<double, -1, 1> > >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseBinaryOp.h:168:7:   required from ‘class Eigen::CwiseBinaryOpImpl<Eigen::ei_scalar_difference_op<double>, Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true>, Eigen::Matrix<double, -1, 1>, Eigen::Dense>’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseBinaryOp.h:101:7:   required from ‘class Eigen::CwiseBinaryOp<Eigen::ei_scalar_difference_op<double>, Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true>, Eigen::Matrix<double, -1, 1> >’
+/home/codio/workspace/FOSSSim/SimpleGravityForce.cpp:27:114:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<2, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::CwiseBinaryOp<Eigen::ei_scalar_difference_op<double>, Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true>, Eigen::Matrix<double, -1, 1> > >::<anonymous enum>’ [-Wenum-compare]
+In file included from /home/codio/workspace/include/eigen/Eigen/Core:234:0,
+                 from /home/codio/workspace/FOSSSim/TwoDScene.h:4,
+                 from /home/codio/workspace/FOSSSim/TwoDScene.cpp:1:
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/MatrixBase.h:55:34:   required from ‘class Eigen::MatrixBase<Eigen::Matrix<double, -1, 1> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseStorageBase.h:42:7:   required from ‘class Eigen::DenseStorageBase<Eigen::Matrix<double, -1, 1> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/Matrix.h:132:7:   required from ‘class Eigen::Matrix<double, -1, 1>’
+/home/codio/workspace/FOSSSim/TwoDScene.h:82:14:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<-1, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::Matrix<double, -1, 1> >::<anonymous enum>’ [-Wenum-compare]
+       InnerSizeAtCompileTime = int(IsVectorAtCompileTime) ? SizeAtCompileTime
+                                                           ^
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::ei_scalar_product_op<double>, Eigen::Matrix<double, -1, 1>, Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> > >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/MatrixBase.h:55:34:   required from ‘class Eigen::MatrixBase<Eigen::CwiseBinaryOp<Eigen::ei_scalar_product_op<double>, Eigen::Matrix<double, -1, 1>, Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> > >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseBinaryOp.h:168:7:   required from ‘class Eigen::CwiseBinaryOpImpl<Eigen::ei_scalar_product_op<double>, Eigen::Matrix<double, -1, 1>, Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true>, Eigen::Dense>’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseBinaryOp.h:101:7:   required from ‘class Eigen::CwiseBinaryOp<Eigen::ei_scalar_product_op<double>, Eigen::Matrix<double, -1, 1>, Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/Dot.h:44:46:   required from ‘static typename Eigen::ei_traits<Derived>::Scalar Eigen::ei_dot_nocheck<T, U, NeedToTranspose>::run(const Eigen::MatrixBase<Derived>&, const Eigen::MatrixBase<U>&) [with T = Eigen::Matrix<double, -1, 1>; U = Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true>; bool NeedToTranspose = false; typename Eigen::ei_traits<Derived>::Scalar = double]’
+/home/codio/workspace/include/eigen/Eigen/src/Core/Dot.h:80:64:   required from ‘typename Eigen::ei_traits<T>::Scalar Eigen::MatrixBase<Derived>::dot(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true>; Derived = Eigen::Matrix<double, -1, 1>; typename Eigen::ei_traits<T>::Scalar = double]’
+/home/codio/workspace/FOSSSim/SimpleGravityForce.cpp:12:92:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<-1, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::CwiseBinaryOp<Eigen::ei_scalar_product_op<double>, Eigen::Matrix<double, -1, 1>, Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> > >::<anonymous enum>’ [-Wenum-compare]
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> > >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/ArrayBase.h:48:34:   required from ‘class Eigen::ArrayBase<Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> > >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/ArrayWrapper.h:45:7:   required from ‘class Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> >’
+/home/codio/workspace/FOSSSim/TwoDScene.cpp:7:49:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<-1, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::Matrix<double, -1, 1> >::<anonymous enum>’ [-Wenum-compare]
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::ei_scalar_product_op<double>, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> >, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> > > >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/ArrayBase.h:48:34:   required from ‘class Eigen::ArrayBase<Eigen::CwiseBinaryOp<Eigen::ei_scalar_product_op<double>, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> >, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> > > >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseBinaryOp.h:168:7:   required from ‘class Eigen::CwiseBinaryOpImpl<Eigen::ei_scalar_product_op<double>, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> >, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> >, Eigen::Dense>’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseBinaryOp.h:101:7:   required from ‘class Eigen::CwiseBinaryOp<Eigen::ei_scalar_product_op<double>, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> >, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> > >’
+/home/codio/workspace/FOSSSim/TwoDScene.cpp:7:63:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<-1, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::CwiseBinaryOp<Eigen::ei_scalar_product_op<double>, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> >, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> > > >::<anonymous enum>’ [-Wenum-compare]
+In file included from /home/codio/workspace/include/eigen/Eigen/Core:234:0,
+                 from /home/codio/workspace/FOSSSim/TwoDScene.h:4,
+                 from /home/codio/workspace/FOSSSim/SceneStepper.h:4,
+                 from /home/codio/workspace/FOSSSim/ExplicitEuler.h:4,
+                 from /home/codio/workspace/FOSSSim/ExplicitEuler.cpp:1:
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/MatrixBase.h:55:34:   required from ‘class Eigen::MatrixBase<Eigen::Matrix<double, -1, 1> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseStorageBase.h:42:7:   required from ‘class Eigen::DenseStorageBase<Eigen::Matrix<double, -1, 1> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/Matrix.h:132:7:   required from ‘class Eigen::Matrix<double, -1, 1>’
+/home/codio/workspace/FOSSSim/TwoDScene.h:82:14:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<-1, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::Matrix<double, -1, 1> >::<anonymous enum>’ [-Wenum-compare]
+       InnerSizeAtCompileTime = int(IsVectorAtCompileTime) ? SizeAtCompileTime
+                                                           ^
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::ei_scalar_product_op<double>, Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, -1, 1> > >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/MatrixBase.h:55:34:   required from ‘class Eigen::MatrixBase<Eigen::CwiseBinaryOp<Eigen::ei_scalar_product_op<double>, Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, -1, 1> > >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseBinaryOp.h:168:7:   required from ‘class Eigen::CwiseBinaryOpImpl<Eigen::ei_scalar_product_op<double>, Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, -1, 1>, Eigen::Dense>’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseBinaryOp.h:101:7:   required from ‘class Eigen::CwiseBinaryOp<Eigen::ei_scalar_product_op<double>, Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, -1, 1> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/Dot.h:44:46:   required from ‘static typename Eigen::ei_traits<Derived>::Scalar Eigen::ei_dot_nocheck<T, U, NeedToTranspose>::run(const Eigen::MatrixBase<Derived>&, const Eigen::MatrixBase<U>&) [with T = Eigen::Matrix<double, -1, 1>; U = Eigen::Matrix<double, -1, 1>; bool NeedToTranspose = false; typename Eigen::ei_traits<Derived>::Scalar = double]’
+/home/codio/workspace/include/eigen/Eigen/src/Core/Dot.h:80:64:   required from ‘typename Eigen::ei_traits<T>::Scalar Eigen::MatrixBase<Derived>::dot(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Matrix<double, -1, 1>; Derived = Eigen::Matrix<double, -1, 1>; typename Eigen::ei_traits<T>::Scalar = double]’
+/home/codio/workspace/FOSSSim/TwoDScene.cpp:7:65:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<-1, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::CwiseBinaryOp<Eigen::ei_scalar_product_op<double>, Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, -1, 1> > >::<anonymous enum>’ [-Wenum-compare]
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::CwiseUnaryOp<Eigen::ei_scalar_multiple_op<double>, Eigen::Matrix<double, -1, 1> > >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/MatrixBase.h:55:34:   required from ‘class Eigen::MatrixBase<Eigen::CwiseUnaryOp<Eigen::ei_scalar_multiple_op<double>, Eigen::Matrix<double, -1, 1> > >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseUnaryOp.h:101:7:   required from ‘class Eigen::CwiseUnaryOpImpl<Eigen::ei_scalar_multiple_op<double>, Eigen::Matrix<double, -1, 1>, Eigen::Dense>’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseUnaryOp.h:68:7:   required from ‘class Eigen::CwiseUnaryOp<Eigen::ei_scalar_multiple_op<double>, Eigen::Matrix<double, -1, 1> >’
+/home/codio/workspace/FOSSSim/ExplicitEuler.cpp:32:12:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<-1, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::Matrix<double, -1, 1> >::<anonymous enum>’ [-Wenum-compare]
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/MatrixBase.h:55:34:   required from ‘class Eigen::MatrixBase<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/MapBase.h:35:34:   required from ‘class Eigen::MapBase<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/Block.h:232:7:   required from ‘class Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true>’
+/home/codio/workspace/include/eigen/Eigen/src/Core/VectorBlock.h:66:47:   required from ‘class Eigen::VectorBlock<Eigen::Matrix<double, -1, 1>, 2>’
+/home/codio/workspace/FOSSSim/ExplicitEuler.cpp:39:23:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<2, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >::<anonymous enum>’ [-Wenum-compare]
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::ei_scalar_sum_op<double>, Eigen::Matrix<double, -1, 1>, Eigen::CwiseUnaryOp<Eigen::ei_scalar_multiple_op<double>, Eigen::Matrix<double, -1, 1> > > >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/MatrixBase.h:55:34:   required from ‘class Eigen::MatrixBase<Eigen::CwiseBinaryOp<Eigen::ei_scalar_sum_op<double>, Eigen::Matrix<double, -1, 1>, Eigen::CwiseUnaryOp<Eigen::ei_scalar_multiple_op<double>, Eigen::Matrix<double, -1, 1> > > >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseBinaryOp.h:168:7:   required from ‘class Eigen::CwiseBinaryOpImpl<Eigen::ei_scalar_sum_op<double>, Eigen::Matrix<double, -1, 1>, Eigen::CwiseUnaryOp<Eigen::ei_scalar_multiple_op<double>, Eigen::Matrix<double, -1, 1> >, Eigen::Dense>’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseBinaryOp.h:101:7:   required from ‘class Eigen::CwiseBinaryOp<Eigen::ei_scalar_sum_op<double>, Eigen::Matrix<double, -1, 1>, Eigen::CwiseUnaryOp<Eigen::ei_scalar_multiple_op<double>, Eigen::Matrix<double, -1, 1> > >’
+/home/codio/workspace/FOSSSim/ExplicitEuler.cpp:44:18:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<-1, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::CwiseBinaryOp<Eigen::ei_scalar_sum_op<double>, Eigen::Matrix<double, -1, 1>, Eigen::CwiseUnaryOp<Eigen::ei_scalar_multiple_op<double>, Eigen::Matrix<double, -1, 1> > > >::<anonymous enum>’ [-Wenum-compare]
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> > >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/ArrayBase.h:48:34:   required from ‘class Eigen::ArrayBase<Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> > >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/ArrayWrapper.h:45:7:   required from ‘class Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> >’
+/home/codio/workspace/FOSSSim/ExplicitEuler.cpp:47:11:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<-1, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::Matrix<double, -1, 1> >::<anonymous enum>’ [-Wenum-compare]
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::ei_scalar_quotient_op<double>, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> >, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> > > >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/ArrayBase.h:48:34:   required from ‘class Eigen::ArrayBase<Eigen::CwiseBinaryOp<Eigen::ei_scalar_quotient_op<double>, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> >, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> > > >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseBinaryOp.h:168:7:   required from ‘class Eigen::CwiseBinaryOpImpl<Eigen::ei_scalar_quotient_op<double>, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> >, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> >, Eigen::Dense>’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseBinaryOp.h:101:7:   required from ‘class Eigen::CwiseBinaryOp<Eigen::ei_scalar_quotient_op<double>, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> >, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> > >’
+/home/codio/workspace/FOSSSim/ExplicitEuler.cpp:47:35:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<-1, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::CwiseBinaryOp<Eigen::ei_scalar_quotient_op<double>, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> >, Eigen::ArrayWrapper<Eigen::Matrix<double, -1, 1> > > >::<anonymous enum>’ [-Wenum-compare]
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::CwiseNullaryOp<Eigen::ei_scalar_constant_op<double>, Eigen::Matrix<double, -1, 1> > >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/MatrixBase.h:55:34:   required from ‘class Eigen::MatrixBase<Eigen::CwiseNullaryOp<Eigen::ei_scalar_constant_op<double>, Eigen::Matrix<double, -1, 1> > >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseNullaryOp.h:58:7:   required from ‘class Eigen::CwiseNullaryOp<Eigen::ei_scalar_constant_op<double>, Eigen::Matrix<double, -1, 1> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseNullaryOp.h:311:52:   required from ‘Derived& Eigen::DenseBase<Derived>::setConstant(const Scalar&) [with Derived = Eigen::Matrix<double, -1, 1>; Eigen::DenseBase<Derived>::Scalar = double]’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseNullaryOp.h:459:31:   required from ‘Derived& Eigen::DenseBase<Derived>::setZero() [with Derived = Eigen::Matrix<double, -1, 1>]’
+/home/codio/workspace/FOSSSim/ExplicitEuler.cpp:28:13:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<-1, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::Matrix<double, -1, 1> >::<anonymous enum>’ [-Wenum-compare]
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::CwiseNullaryOp<Eigen::ei_scalar_constant_op<double>, Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> > >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/MatrixBase.h:55:34:   required from ‘class Eigen::MatrixBase<Eigen::CwiseNullaryOp<Eigen::ei_scalar_constant_op<double>, Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> > >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseNullaryOp.h:58:7:   required from ‘class Eigen::CwiseNullaryOp<Eigen::ei_scalar_constant_op<double>, Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseNullaryOp.h:311:52:   required from ‘Derived& Eigen::DenseBase<Derived>::setConstant(const Scalar&) [with Derived = Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true>; Eigen::DenseBase<Derived>::Scalar = double]’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseNullaryOp.h:459:31:   required from ‘Derived& Eigen::DenseBase<Derived>::setZero() [with Derived = Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true>]’
+/home/codio/workspace/FOSSSim/ExplicitEuler.cpp:39:33:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<2, 1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::Block<Eigen::Matrix<double, -1, 1>, 2, 1, true> >::<anonymous enum>’ [-Wenum-compare]

@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -Wextra -Wno-unused -msse2 -O3 -DNDEBUG    CMakeFiles/FOSSSim.dir/StableFluids/StableFluidsSim.cpp.o  -o FOSSSim -rdynamic ../../lib/libFOSSSimT6M1base.a -lGLU -lGL -lSM -lICE -lX11 -lXext -lglut 

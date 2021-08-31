@@ -1,0 +1,140 @@
+<scene>
+<description text="A box of 50 particles with random initial position and velocity. One fixed object with 4 edges, and one un-fixed object with 4 edges."/>
+<duration time="5"/>
+<viewport cx="0" cy="0" size="6"/>
+<integrator type="forward-backward-euler" dt="0.005"/>
+<collision type="penalty" k="100" thickness="0.0"/>
+<collisiondetection type="contest"/>
+<maxsimfreq max="500"/>
+
+<particle m="1" px="3.40188" py="-1.05617" vx="0.283099" vy="0.29844" fixed="0" radius="0.2"/>
+<particle m="1" px="4.11647" py="-3.02449" vx="-0.164777" vy="0.26823" fixed="0" radius="0.2"/>
+<particle m="1" px="-3.43321" py="-0.990556" vx="-0.37021" vy="-0.391191" fixed="0" radius="0.2"/>
+<particle m="1" px="-3.07786" py="1.63227" vx="0.390233" vy="-0.151107" fixed="0" radius="0.2"/>
+<particle m="1" px="-4.35829" py="-4.79977" vx="-0.0422983" vy="-0.436904" fixed="0" radius="0.2"/>
+<particle m="1" px="0.125354" py="1.67724" vx="0.0316064" vy="-0.46072" fixed="0" radius="0.2"/>
+<particle m="1" px="-2.15707" py="2.38534" vx="0.139979" vy="-0.145951" fixed="0" radius="0.2"/>
+<particle m="1" px="-3.5234" py="3.81062" vx="0.141081" vy="-0.0680466" fixed="0" radius="0.2"/>
+<particle m="1" px="0.844885" py="-2.55587" vx="-0.34761" vy="0.232149" fixed="0" radius="0.2"/>
+<particle m="1" px="-1.40905" py="0.52485" vx="0.07943" vy="-0.0474242" fixed="0" radius="0.2"/>
+<particle m="1" px="-1.55057" py="0.984813" vx="0.333243" vy="-0.266108" fixed="0" radius="0.2"/>
+<particle m="1" px="1.86125" py="-4.0626" vx="-0.388724" vy="-0.138399" fixed="0" radius="0.2"/>
+<particle m="1" px="2.75767" py="-2.11621" vx="-0.170358" vy="-0.310249" fixed="0" radius="0.2"/>
+<particle m="1" px="3.64579" py="-0.0760118" vx="-0.0363378" vy="0.348942" fixed="0" radius="0.2"/>
+<particle m="1" px="-0.0147452" py="-3.78741" vx="-0.361762" vy="-0.139557" fixed="0" radius="0.2"/>
+<particle m="1" px="-1.75193" py="4.31895" vx="0.408485" vy="0.122095" fixed="0" radius="0.2"/>
+<particle m="1" px="1.59146" py="-4.63673" vx="-0.242531" vy="0.278257" fixed="0" radius="0.2"/>
+<particle m="1" px="-3.47124" py="-4.67107" vx="-0.436439" vy="0.185722" fixed="0" radius="0.2"/>
+<particle m="1" px="-3.12384" py="1.18958" vx="0.200301" vy="0.0678311" fixed="0" radius="0.2"/>
+<particle m="1" px="1.55368" py="3.57555" vx="-0.318839" vy="-0.158646" fixed="0" radius="0.2"/>
+<particle m="1" px="3.85014" py="-3.13735" vx="-0.342861" vy="0.00346098" fixed="0" radius="0.2"/>
+<particle m="1" px="3.32609" py="0.150491" vx="-0.387352" vy="-0.01019" fixed="0" radius="0.2"/>
+<particle m="1" px="1.40766" py="0.972798" vx="-0.277398" vy="-0.280212" fixed="0" radius="0.2"/>
+<particle m="1" px="3.99086" py="2.67014" vx="-0.166431" vy="0.0367425" fixed="0" radius="0.2"/>
+<particle m="1" px="-0.220391" py="-1.39895" vx="0.15388" vy="0.416523" fixed="0" radius="0.2"/>
+<particle m="1" px="0.636174" py="-2.57374" vx="-0.481089" vy="-0.156159" fixed="0" radius="0.2"/>
+<particle m="1" px="-3.32835" py="-2.97023" vx="0.126125" vy="-0.323761" fixed="0" radius="0.2"/>
+<particle m="1" px="4.15221" py="-3.99143" vx="0.114227" vy="-0.429443" fixed="0" radius="0.2"/>
+<particle m="1" px="-4.65284" py="-0.681565" vx="0.313904" vy="0.253383" fixed="0" radius="0.2"/>
+<particle m="1" px="-2.99053" py="1.61792" vx="0.199787" vy="-0.172384" fixed="0" radius="0.2"/>
+<particle m="1" px="2.66701" py="3.0333" vx="0.198713" vy="0.181922" fixed="0" radius="0.2"/>
+<particle m="1" px="-3.98546" py="-3.42725" vx="-0.255851" vy="-0.363829" fixed="0" radius="0.2"/>
+<particle m="1" px="1.68326" py="0.288848" vx="-0.187657" vy="0.443222" fixed="0" radius="0.2"/>
+<particle m="1" px="3.07959" py="-1.12677" vx="0.247277" vy="0.434181" fixed="0" radius="0.2"/>
+<particle m="1" px="-3.60999" py="-3.56058" vx="-0.304102" vy="0.27741" fixed="0" radius="0.2"/>
+<particle m="1" px="3.80009" py="-3.27278" vx="-0.321013" vy="-0.140214" fixed="0" radius="0.2"/>
+<particle m="1" px="-0.427603" py="1.40368" vx="0.217092" vy="-0.0399325" fixed="0" radius="0.2"/>
+<particle m="1" px="0.411396" py="-4.94157" vx="-0.231316" vy="-0.30837" fixed="0" radius="0.2"/>
+<particle m="1" px="-4.79492" py="-4.46927" vx="0.397883" vy="0.399521" fixed="0" radius="0.2"/>
+<particle m="1" px="-4.60283" py="-0.808561" vx="-0.316199" vy="-0.280147" fixed="0" radius="0.2"/>
+<particle m="1" px="-1.41765" py="4.30854" vx="0.416851" vy="-0.396756" fixed="0" radius="0.2"/>
+<particle m="1" px="-2.24116" py="0.477228" vx="-0.344798" vy="0.328622" fixed="0" radius="0.2"/>
+<particle m="1" px="-1.32882" py="1.15491" vx="0.0173907" vy="-0.121201" fixed="0" radius="0.2"/>
+<particle m="1" px="-2.75357" py="0.41743" vx="0.397055" vy="0.344113" fixed="0" radius="0.2"/>
+<particle m="1" px="4.50885" py="-1.76245" vx="0.0764793" vy="-0.456621" fixed="0" radius="0.2"/>
+<particle m="1" px="2.75899" py="4.25511" vx="0.0569077" vy="-0.208569" fixed="0" radius="0.2"/>
+<particle m="1" px="4.32716" py="4.81453" vx="0.0572915" vy="0.208616" fixed="0" radius="0.2"/>
+<particle m="1" px="-4.17423" py="-3.57711" vx="0.269074" vy="0.489541" fixed="0" radius="0.2"/>
+<particle m="1" px="3.40804" py="-4.32538" vx="0.203571" vy="-0.279321" fixed="0" radius="0.2"/>
+<particle m="1" px="0.68754" py="0.462219" vx="0.0322183" vy="0.493528" fixed="0" radius="0.2"/>
+<particle m="1" px="2.02672" py="0.401965" vx="0.122988" vy="0.252935" fixed="0" radius="0.2"/>
+    
+    <particlecolor i="0"r="0.1"g="0.1"b="0.1"/>
+<particlecolor i="1"r="0.1"g="0.2"b="0.2"/>
+<particlecolor i="2"r="0.1"g="0.3"b="0.3"/>
+<particlecolor i="3"r="0.1"g="0.4"b="0.4"/>
+<particlecolor i="4"r="0.1"g="0.5"b="0.5"/>
+<particlecolor i="5"r="0.1"g="0.6"b="0.6"/>
+<particlecolor i="6"r="0.1"g="0.7"b="0.7"/>
+<particlecolor i="7"r="0.1"g="0.8"b="0.8"/>
+<particlecolor i="8"r="0.1"g="0.9"b="0.9"/>
+<particlecolor i="9"r="0.1"g="1"b="1"/>
+<particlecolor i="10"r="0.1"g="0.1"b="0.1"/>
+<particlecolor i="11"r="0.2"g="0.1"b="0.2"/>
+<particlecolor i="12"r="0.3"g="0.1"b="0.3"/>
+<particlecolor i="13"r="0.4"g="0.1"b="0.4"/>
+<particlecolor i="14"r="0.5"g="0.1"b="0.5"/>
+<particlecolor i="15"r="0.6"g="0.1"b="0.6"/>
+<particlecolor i="16"r="0.7"g="0.1"b="0.7"/>
+<particlecolor i="17"r="0.8"g="0.1"b="0.8"/>
+<particlecolor i="18"r="0.9"g="0.1"b="0.9"/>
+<particlecolor i="19"r="1"g="0.1"b="1"/>
+<particlecolor i="20"r="0.1"g="0.1"b="0.1"/>
+<particlecolor i="21"r="0.2"g="0.2"b="0.1"/>
+<particlecolor i="22"r="0.3"g="0.3"b="0.1"/>
+<particlecolor i="23"r="0.4"g="0.4"b="0.1"/>
+<particlecolor i="24"r="0.5"g="0.5"b="0.1"/>
+<particlecolor i="25"r="0.6"g="0.6"b="0.1"/>
+<particlecolor i="26"r="0.7"g="0.7"b="0.1"/>
+<particlecolor i="27"r="0.8"g="0.8"b="0.1"/>
+<particlecolor i="28"r="0.9"g="0.9"b="0.1"/>
+<particlecolor i="29"r="1"g="1"b="0.1"/>
+<particlecolor i="30"r="0.1"g="0.1"b="0.1"/>
+<particlecolor i="31"r="0.1"g="0.2"b="0.2"/>
+<particlecolor i="32"r="0.1"g="0.3"b="0.3"/>
+<particlecolor i="33"r="0.1"g="0.4"b="0.4"/>
+<particlecolor i="34"r="0.1"g="0.5"b="0.5"/>
+<particlecolor i="35"r="0.1"g="0.6"b="0.6"/>
+<particlecolor i="36"r="0.1"g="0.7"b="0.7"/>
+<particlecolor i="37"r="0.1"g="0.8"b="0.8"/>
+<particlecolor i="38"r="0.1"g="0.9"b="0.9"/>
+<particlecolor i="39"r="0.1"g="1"b="1"/>
+<particlecolor i="40"r="0.1"g="0.1"b="0.1"/>
+<particlecolor i="41"r="0.2"g="0.1"b="0.2"/>
+<particlecolor i="42"r="0.3"g="0.1"b="0.3"/>
+<particlecolor i="43"r="0.4"g="0.1"b="0.4"/>
+<particlecolor i="44"r="0.5"g="0.1"b="0.5"/>
+<particlecolor i="45"r="0.6"g="0.1"b="0.6"/>
+<particlecolor i="46"r="0.7"g="0.1"b="0.7"/>
+<particlecolor i="47"r="0.8"g="0.1"b="0.8"/>
+<particlecolor i="48"r="0.9"g="0.1"b="0.9"/>
+<particlecolor i="49"r="1"g="0.1"b="1"/>
+<particlecolor i="50"r="0.1"g="0.1"b="0.1"/>
+
+<particle m="1" px="-0.1" py="3" vx="0" vy="0" fixed="0" radius="0.2"/>
+<particle m="1" px="1.0" py="2.5" vx="0" vy="0" fixed="0" radius="0.2"/>
+<particle m="1" px="-0.1" py="4" vx="0" vy="0" fixed="0" radius="0.2"/>
+<particle m="1" px="1.0" py="3.5" vx="0" vy="0" fixed="0" radius="0.2"/>
+
+<particle m="1" px="-2" py="-1.5" vx="0" vy="0" fixed="1" radius="0.2"/>
+<particle m="1" px="-3" py="-1" vx="0" vy="0" fixed="1" radius="0.2"/>
+<particle m="1" px="-2" py="-2" vx="0" vy="0" fixed="1" radius="0.2"/>
+<particle m="1" px="-3" py="-2.5" vx="0" vy="0" fixed="1" radius="0.2"/>
+    
+    
+<edge i="51" j="52" radius="0.1"/>
+<edge i="52" j="54" radius="0.1"/>
+<edge i="51" j="53" radius="0.1"/>
+<edge i="54" j="53" radius="0.1"/>
+    
+<edge i="55" j="56" radius="0.1"/>
+<edge i="56" j="58" radius="0.1"/>
+<edge i="55" j="57" radius="0.1"/>
+<edge i="58" j="57" radius="0.1"/>
+    
+<halfplane py="-5.2" px="0.0" ny="1.0" nx="0.0"/>
+<halfplane py="5.2" px="0.0" ny="-1.0" nx="0.0"/>
+<halfplane py="0" px="-5.2" ny="0.0" nx="1.0"/>
+<halfplane py="0" px="5.2" ny="0.0" nx="-1.0"/>
+
+</scene>

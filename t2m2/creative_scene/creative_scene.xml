@@ -1,0 +1,54 @@
+<scene>
+  <description text="A particle slides down a slope with low COR, while also colliding with various other particles"/>
+
+  <duration time="10.0"/>
+  <integrator type="forward-backward-euler" dt="0.01"/>
+  <viewport cx="0" cy="0" size="5"/>
+  <collision type="hybrid" maxiters="10" COR="0.4"/>
+
+  <particle m="1.0" px="0" py="4" vx="2" vy="0" fixed="0" radius="0.2"/>
+
+  <particle m="1.0" px="-3" py="3" vx="0" vy="0" fixed="1" radius="0.1"/>
+  <particle m="1.0" px="1" py="2" vx="0" vy="0" fixed="1" radius="0.1"/>
+  <particle m="1.0" px="4" py="2.5" vx="0" vy="0" fixed="1" radius="0.1"/>
+  <particle m="1.0" px="-1" py="0.5" vx="0" vy="0" fixed="1" radius="0.1"/>
+  <particle m="1.0" px="-2" py="0.4" vx="0" vy="0" fixed="1" radius="0.1"/>
+
+  <particle m="1.0" px="-4" py="2" vx="0" vy="0" fixed="1" radius="0.1"/>
+  <particle m="1.0" px="-3" py="-2" vx="0" vy="0" fixed="1" radius="0.1"/>
+  <particle m="1.0" px="-1" py="-3" vx="0" vy="0" fixed="1" radius="0.1"/>
+  <particle m="1.0" px="0" py="-3" vx="0" vy="0" fixed="1" radius="0.1"/>
+  <particle m="1.0" px="1" py="-2.5" vx="0" vy="0" fixed="1" radius="0.1"/>
+ 
+  <edge i="1" j="2" radius="0.1"/>
+  <edge i="3" j="4" radius="0.1"/>
+  <edge i="4" j="5" radius="0.1"/>
+  <edge i="6" j="7" radius="0.1"/>
+  <edge i="7" j="8" radius="0.1"/>
+  <edge i="8" j="9" radius="0.1"/>
+  <edge i="9" j="10" radius="0.1"/>
+  
+  <particle m="1.0" px="1.5" py="2.0" vx="2" vy="0" fixed="0" radius="0.2"/>
+  <particle m="1.0" px="-1.0" py="-2.5" vx="1.0" vy="0" fixed="0" radius="0.2"/>
+ 
+  <halfplane px="0.0" py="-4.0" nx="0.0" ny="1.0"/>
+  <halfplanecolor i="0" r="0" g="0" b="0"/>
+    
+  <particlecolor i="0"  r="0.8"  g="0.0" b="0.0"/>
+  <particlecolor i="1"  r="1.0"  g="1.0" b="1.0"/>
+  <particlecolor i="2"  r="1.0"  g="1.0" b="1.0"/>
+  <particlecolor i="3"  r="1.0"  g="1.0" b="1.0"/>
+  <particlecolor i="4"  r="1.0"  g="1.0" b="1.0"/>
+  <particlecolor i="5"  r="1.0"  g="1.0" b="1.0"/>
+  <particlecolor i="6"  r="1.0"  g="1.0" b="1.0"/>
+  <particlecolor i="7"  r="1.0"  g="1.0" b="1.0"/>
+  <particlecolor i="8"  r="1.0"  g="1.0" b="1.0"/>
+  <particlecolor i="9"  r="1.0"  g="1.0" b="1.0"/>
+  <particlecolor i="10" r="1.0"  g="1.0" b="1.0"/>  
+  <particlecolor i="11" r="0.0"  g="0.2" b="0.6"/>
+  <particlecolor i="12" r="0.0"  g="0.8" b="0.0"/>
+  
+  <backgroundcolor r="0.0" g="0.0" b="0.0"/>
+  
+  <simplegravity fx="0" fy="-4.2"/>
+</scene>
